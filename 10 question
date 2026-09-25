@@ -1,0 +1,188 @@
+// QUESTION 1 : ( addition , subtraction , multiplication , division ) perform .
+
+// import java.util.Scanner;
+// public class Day3{
+//     public static void main ( String [] args){
+//     Scanner sc = new Scanner (System.in);
+//     int a = sc.nextInt();
+//     int b = sc.nextInt();
+    
+//     int sum = a+b;
+//     int sub = a-b;
+//     int multi = a*b;
+//     int div = a/b;
+//     int remainder = a%b;
+
+//     System.out.println(sum);
+//     System.out.println(sub);
+//     System.out.println(multi);
+//     System.out.println(div);
+//     System.out.println(remainder);
+//     sc.close();
+//     }
+// }
+
+
+// QUESTION 2 : ( RECTANGLE AREA , PERIMETER ) ?
+
+// import java.util.Scanner;
+
+// public class Day2 {
+//     public static void main (String [] args ){
+//         Scanner sc = new Scanner (System.in);
+
+//         int length = sc.nextInt();
+//         int width = sc.nextInt();
+
+//         int area = length * width;
+//         int perimeter = 2 * (length + width);
+
+//         System.out.println(area);
+//         System.out.println(perimeter);
+//         sc.close();
+//     }
+// }
+
+
+
+// QUESTION 3 : ( AVARAGE , TOTAL SUM FINDING FOR 5 SUBJECT ) ?
+
+// public class Day3 {
+//     public static void main (String [] args ){
+//         
+//         int sub1 = 20;
+//         int sub2 = 10;
+//         int sub3 = 50;
+//         int sub4 = 60;
+//         int sub5 = 100;
+
+//         int sum = sub1+sub2+sub3+sub4+sub5 ; 
+//         double avarge = sum / 5.0 ; 
+
+//         System.out.println(sum);
+//         System.out.println(avarge);
+//        
+//     }
+// }
+
+//                      (( : or second type : ))
+
+
+// import java.util.Scanner;
+
+// public class Day3 {
+//     public static void main (String [] args ){
+//         Scanner sc = new Scanner (System.in);
+//         int sub1 = sc.nextInt();
+//         int sub2 = sc.nextInt();
+//         int sub3 = sc.nextInt();
+//         int sub4 = sc.nextInt();
+//         int sub5 = sc.nextInt();
+
+//         int sum = sub1+sub2+sub3+sub4+sub5 ; 
+//         double avarge = sum / 5.0 ; 
+
+//         System.out.println(sum);
+//         System.out.println(avarge);
+//         sc.close();
+//     }
+// }
+
+
+// QUESTION 4 : using Assignment Operators (+= , -= , *= , /= etc).
+
+// public class Day3{
+//     public static void main (String [] args){
+//         int x = 100;
+//         x += 50 ;
+//         x -= 20;
+//         x *= 2;
+//         x /= 5;
+
+//         System.out.println(x);
+//     }
+// }
+
+
+// QUESTION 5 : (( : FIND OUTPUT : )) .
+
+// public class Day3 {
+//     public static void main ( String [] args){
+//         int x = 10;
+
+//         x += 5 ;
+//         x -= 2 ;
+//         x *= 10 ;
+
+//         System.out.println(x);
+//     }
+// }
+
+
+// QUESTION 6 : ( FIND OUTPUT ) ? ( ++ baad me lagane se 1 value kam ho jaati hai) ?
+
+// public class Day3 {
+//     public static void main ( String [] args){
+//         int a = 5 ;
+
+//         System.out.println(a++);
+//         System.out.println(a);
+//     }
+// }
+
+
+
+// QUESTION 7 : ( FIND OUTPUT ) ? ( a ki value pahle increase ho jayegi .(++ pahle lagane se))
+
+// public class Day3 {
+//     public static void main ( String [] args){
+//         int a = 5 ;
+//         System.out.println(++a);
+//         System.out.println(a);
+//     }
+// }
+
+
+
+// QUESTION 8 : ( FIND OUTPUT [X++ , ++X , X- , -X ])?
+
+// public class Day3 {
+//     public static void main (String []args){
+//         int x = 10 ;
+
+//         x++;
+//         ++x;
+//         x--;
+//         --x;
+//         System.out.println(x);
+//     }
+// }
+
+
+
+// QUESTION 9 : ( FIND OUTPUT USING BY ( A++ + ++B )) ?
+
+// public class Day3{
+//     public static void main (String[]args){
+//         int a = 10 ;
+//         int b = 20 ;
+//         int c = a++ + ++b ; 
+//         System.out.println(a);
+//         System.out.println(b);
+//         System.out.println(c);
+//     }
+// }
+
+
+
+// QUESTION 10 : ( FIND OUTPUT ) ?
+
+// public class Day3 {
+//     public static void main (String []args){
+//         int x = 5 ; 
+        
+//         int y = x++ + ++x + x-- ;
+//         System.out.println(x);
+//         System.out.println(y);
+//     }
+// }
