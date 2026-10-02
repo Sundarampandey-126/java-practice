@@ -1,1 +1,555 @@
-# java-practice
+// QUESTION 1: Write a program to check whether the number is positive or negative.
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main (String [] args){
+//     Scanner sc = new Scanner (System.in);
+//     int n = sc.nextInt();
+//     if(n>0){
+//         System.out.println("positive number");
+//     }else{
+//         System.out.println("negative number");
+//     }
+//     sc.close();
+// }
+// }
+
+
+
+// QUESTION 2: Write a program to check whether the person is eligible to vote or not.
+
+
+// import java.util.Scanner;
+
+// public static void main (String [] args){
+//     Scanner sc = new Scanner(System.in);
+//     int eligible = sc.nextInt();
+
+//     if (eligible >= 18){
+//         System.out.println("eligible to vote");
+//     }else{
+//         System.out.println("not eligible to vote");
+//     }
+//     sc.close();
+// }
+
+
+// QUESTION 3: Write a program to check whether the number is divisible by 5 or not.
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main (String[]args){
+//     Scanner sc = new Scanner(System.in);
+//     int divisible = sc.nextInt();
+
+//     if (divisible % 5 == 0 ){
+//         System.out.println("divisible by 5");
+//     }else {
+//         System.out.println("not divisible by 5");
+//     }
+//     sc.close();
+// }
+// }
+
+
+// QUESTION 4: Write a program to check whether the number is greater than 40 or not.
+
+
+// import java.util.Scanner;
+// public class day1{
+// public static void main (String[]args){
+//     Scanner sc = new Scanner(System.in);
+//     int marks = sc.nextInt();
+
+//     if (marks > 40){
+//         System.out.println("greater than 40");
+//     }else{
+//         System.out.println("not greater than 40");
+//     }
+//     sc.close();
+// }
+// }
+
+// QUESTION 5: Write a program to check whether the number is even or odd.
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main(String[]args){
+//     Scanner sc = new Scanner(System.in);
+//     int even = sc.nextInt();
+
+//     if (even%2 == 0){
+//         System.out.println("even number");
+//     }else {
+//         System.out.println("odd number");
+//     }
+//     sc.close();
+// }
+// }
+
+
+// QUESTION 6: Write a program to check whether the number is even . If the number is even then print "even number" otherwise print "invalid input".
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main(String[]args){
+//     Scanner sc = new Scanner(System.in);
+//     int even = sc.nextInt();
+
+//     if (even%2 == 0){
+//         System.out.println("even number");
+//     }else {
+//         System.out.println("invalid input");
+//     }
+//     sc.close();
+// }
+// }/
+
+
+// QUESTION 7: Write a program to check whether the person is eligible to vote or not.
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main (String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         int eligible = sc.nextInt();
+
+//         if (eligible >=18){
+//             System.out.println("eligible to vote");
+//         } else {
+//             System.out.println("not eligible to vote");
+//         }
+//         sc.close();
+//     }
+// }
+
+
+// QUESTION 8: Write a program to check whether the number is positive or negative.
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         int positive = sc.nextInt();
+
+//         if (positive>0){
+//             System.out.println("positive number");
+//         }else{
+//             System.out.println("negative number");
+//         }
+//         sc.close();
+//     }
+// }
+
+
+// QUESTION 9: Write a program to check whether the person is pass or fail.
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         int passfail = sc.nextInt();
+
+//         if (passfail >= 33){
+//             System.out.println("pass");
+//         }else{
+//             System.out.println("fail");
+//         }
+//         sc.close();
+//     }
+// }
+
+
+// QUESTION 10: Write a program to check whether the number is divisible by 3 or not.
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main (String[]args){
+//     Scanner sc = new Scanner(System.in);
+//     int divisible = sc.nextInt();
+
+//     if (divisible % 3 == 0 ){
+//         System.out.println("divisible by 3");
+//     }else {
+//         System.out.println("not divisible by 3");
+//     }
+//     sc.close();
+// }
+// }
+
+
+// QUESTION 11: Marks → Grade
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         int marks = sc.nextInt();
+
+//         if (marks>=90){
+//             System.out.println("A grade");
+//         }else if (marks>=80){
+//             System.out.println("B grade");
+//         }else if(marks>=60){
+//             System.out.println("C grade");
+//         }else if(marks>=50){
+//             System.out.println("D grade");
+//         }else{
+//             System.out.println("fail");
+//         }
+//         sc.close();
+//     }
+// }
+
+
+// QUESTION 12:AGE CATEGORY
+
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         int display = sc.nextInt();
+
+//         if (display>=60){
+//             System.out.println("senior");
+//         }else if (display>=30){
+//             System.out.println("adult");
+//         }else if(display>=18){
+//             System.out.println("teenager");
+//         }else{
+//             System.out.println("child");
+//         }
+//         sc.close();
+//         }
+//     }
+
+
+// QUESTION 13:  Positive, Negative or Zero
+
+
+// import java.util.Scanner;
+
+// class day1 {
+//     public static void main(String[]args) {
+//         Scanner sc = new Scanner(System.in);
+//         int positive = sc.nextInt();
+        
+//         if (positive>0){
+//             System.out.println("positive");
+//         }
+//         else if (positive<0){
+//             System.out.println("negative");
+//         }
+//         else{ 
+//             System.out.println("zero");
+//         }
+//         sc.close();
+//     }
+// }
+
+
+// QUESTION 14: CHECK WEATHER 
+
+// import java.util.Scanner;
+
+// class day1{
+// public static void main(String[]args){
+//     Scanner sc = new Scanner (System.in);
+//     int weather = sc.nextInt();
+
+//     if (weather>40){
+//         System.out.println("very hot");
+//     }else if (weather>30){
+//         System.out.println("hot");
+//     }else if (weather>20){
+//         System.out.println("normal");
+//     }else{
+//         System.out.println("cold");
+//     }
+//     sc.close();
+// }
+// }
+
+
+
+// QUESTION 15 : CALCULATE BONUS AND SALARY
+
+
+// import java.util.Scanner ;
+
+// public class day1 {
+//     public static void main (String []args){
+//         Scanner sc = new Scanner (System.in);
+//         int salary = sc.nextInt();
+//         int bonus=0;
+        
+//         if (salary>=50000){
+//             bonus = 50000*20/100 ;
+//         }else if ( salary >=30000){
+//             bonus = 30000*15/100 ;
+//         }else if (salary>=20000){
+//             bonus = salary*10/100 ;
+//         }else {
+//             bonus = salary*5/100 ;
+//         }
+//         System.out.println(bonus);
+//         sc.close();
+//     }
+// }
+
+
+
+// QUESTION 16:  PROJECT 1 ===>>>>   CALCULATER <<<<<<<<=========
+
+// import java.util.Scanner;
+
+// public class day1{
+//     public static void main (String [] args){
+//         Scanner sc = new Scanner (System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         System.out.println(" 1 = addition");
+//         System.out.println(" 2 = subtraction");
+//         System.out.println(" 3 = multiplication");
+//         System.out.println(" 4 = division");
+//         System.out.println(" 5 = remainder");
+
+//         int choice = sc.nextInt();
+
+//         switch ( choice ) {
+//             case 1 :
+//                 System.out.println(a+b);
+//                 break ;
+//             case 2 :
+//                 System.out.println(a-b);
+//                 break ;
+//             case 3 :
+//                 System.out.println(a*b);
+//                 break ;
+//             case 4 :
+//                 System.out.println(a/b);
+//                 break ;
+//             case 5 :
+//                 System.out.println(a%b);
+//                 break ;
+//             default :
+//             System.out.println("invalid input value"); 
+//         }
+//         sc.close();
+//     }
+// }
+
+
+
+
+
+// QUESTION 17 : 1 TO 7 DAYS PRINT
+
+// import java.util.Scanner;
+
+// class Switch{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner (System.in);
+//         int day = sc.nextInt();
+
+//         switch(day){
+//             case 1 :
+//                 System.out.println("monday");
+//                 break;
+//             case 2 :
+//                 System.out.println("tuesday");
+//                 break;
+//             case 3 :
+//                 System.out.println("wednesday");
+//                 break;
+//             case 4 :
+//                 System.out.println("thursday");
+//                 break;
+//             case 5 :
+//                 System.out.println("friday");
+//                 break;
+//             case 6 :
+//                 System.out.println("saturday");
+//                 break;
+//             default :
+//                 System.out.println("invalid input");
+//         }
+//         sc.close();
+//     }
+// }
+
+
+
+// QUESTION 18 : PRINT 1 TO 12 MONTHS ?
+
+// import java.util.Scanner;
+
+// class day1{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner (System.in);
+//         int months = sc.nextInt();
+
+//         switch(months){
+//             case 1 :
+//                 System.out.println("january");
+//                 break;
+//             case 2 :
+//                 System.out.println("febuary");
+//                 break;
+//             case 3 :
+//                 System.out.println("march");
+//                 break;
+//             case 4 :
+//                 System.out.println("april");
+//                 break;
+//             case 5 :
+//                 System.out.println("may");
+//                 break;
+//             case 6 :
+//                 System.out.println("june");
+//                 break;
+//             case 7 :
+//                 System.out.println("july");
+//                 break;
+//             case 8 :
+//                 System.out.println("august");
+//                 break;
+//             case 9 :
+//                 System.out.println("september");
+//                 break;
+//             case 10 :
+//                 System.out.println("october");
+//                 break;
+//             case 11 :
+//                 System.out.println("november");
+//                 break;
+//             case 12 :
+//                 System.out.println("december");
+//                 break;
+//             default :
+//                 System.out.println("invalid input");
+//         }
+//         sc.close();
+//     }
+// }
+
+
+
+
+
+// QUESTION 19 : MENU - DRIVEN PROGRAM ?
+
+
+// import java.util.Scanner;
+
+// public class p2{
+//     public static void main (String [] args){
+//         Scanner sc = new Scanner (System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         System.out.println(" 1 = check even / odd ");
+//         System.out.println(" 2 = check positive / negative ");
+//         System.out.println(" 3 = find square ");
+//         System.out.println(" 4 = find  cube ");
+
+//         int choice = sc.nextInt();
+
+//         switch ( choice ) {
+//             case 1 :
+//                 if ( a % 2 == 0 ) {
+//                     System.out.println("A is even");
+//                 }else{
+//                     System.out.println("A is odd");
+//                 }if( b % 2 == 0 ){
+//                     System.out.println("B is even");
+//                 }else{
+//                     System.out.println("B is odd");
+//                 }
+//                 break ;
+//             case 2 :
+//                 if ( a > 0 ) {
+//                     System.out.println("positive");
+//                 }else{
+//                     System.out.println("negative");
+//                 }if( b > 0 ) {
+//                     System.out.println("positve");
+//                 }else {
+//                     System.out.println("negative");
+//                 }
+//                 break ;
+//             case 3 :
+//                 System.out.println(a*a);
+//                 System.out.println(b*b);
+//                 break ;
+//             case 4 :
+//                 System.out.println(a*a*a);
+//                 System.out.println(b*b*b);
+//                 break ;
+//             default :
+//             System.out.println("invalid input value"); 
+//         }
+//         sc.close();
+//     }
+// }
+
+
+
+
+// QUESTION 20 : ( ISME IMPORT JAVA.UTIL.SCANNER Q NHI USE KIYA GAYA HAI ? )
+
+
+
+// import java.util.Scanner ;
+
+// public class day1{
+//     public static void main ( String [] args ){
+//         Scanner sc = new Scanner (System.in);
+
+//         System.out.println(" 1 = pizza ");
+//         System.out.println(" 2 = burger");
+//         System.out.println(" 3 = sandwich ");
+//         System.out.println(" 4 = pasta ");
+
+//         int choice = sc.nextInt();
+
+//         switch ( choice ) {
+//         case 1 :
+//             System.out.println(" 200 Rs = pizza ");
+//             break ;
+//         case 2 :
+//             System.out.println("150 Rs = burger ");
+//             break ;
+//         case 3 :
+//             System.out.println(" 170 Rs = sanwich ");
+//             break ;
+//         case 4 :
+//             System.out.println("400 Rs = pasta ");
+//             break ;
+//         default : System.out.println("invalid input");
+//         }
+//         sc.close();
+        
+//     }
+// }
+
