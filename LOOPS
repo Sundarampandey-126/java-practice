@@ -1,0 +1,300 @@
+// QUESTION: 1 :Write a Java program to print numbers from 1 to 10 using a for loop ?
+
+// public class day5_2 {
+//     public static void main (String[]args){
+//         for(int i=0; i<=10; i++){
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+
+
+
+
+// QUESTION : 2 : Write a Java program to print numbers from 1 to 10 using a for loop ?
+
+// public class day5_2{
+//     public static void main (String[]args){
+
+//         for (int i = 10 ; i>=0 ; i-- ){
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+
+
+
+// QUESTION : 3 : Print all even numbers from 1 to 50 ?
+
+// import java.util.Scanner;
+
+// public class day5_2{
+//     public static void main (String[]args){
+//         Scanner sc = new Scanner (System.in);
+
+//         int firstno = sc.nextInt();
+//         int secondno = sc.nextInt();
+        
+//         int count_even = 0 ;
+
+//         for(int i = firstno ; i<=secondno ; i ++){
+//             if(i%2==0){
+//                 count_even += 1 ;
+//             }
+//         }
+//         System.out.println(count_even);
+//         sc.close();
+//     }
+// }
+
+
+
+
+
+// QUESTION : 4 : Print all odd numbers from 1 to 50 ?
+
+// import java.util.Scanner;
+
+// public class day5_2{
+//     public static void main (String[]args){
+//         Scanner sc = new Scanner (System.in);
+
+//         int firstno = sc.nextInt();
+//         int secondno = sc.nextInt();
+        
+//         int count_odd = 0 ;
+
+//         for(int i = firstno ; i<=secondno ; i ++){
+//             if(i%2!=0){
+//                 count_odd += 1 ;
+//             }
+//         }
+//         System.out.println(count_odd);
+//         sc.close();
+//     }
+// }
+
+
+
+
+
+// QUESTION : 5 : Print the multiplication table of 7 ?
+
+// public class day5_2{
+//     public static void main (String []args){
+//         int num = 7 ;
+
+//         for (int i = 1 ; i <=10 ; i++){
+//             System.out.println(num*i);
+//         }
+//     }
+// }
+
+
+
+
+
+// QUESTION : 6 : Take a number from the user and print its multiplication table from 1 to 10 ?
+
+// import java.util.Scanner ;
+
+// public class day5_2{
+//     public static void main (String[]args){
+//         Scanner sc = new Scanner (System.in);
+//         int num1 = sc.nextInt();
+
+//         for(int i = 1 ; i<=10 ; i++){
+//             System.out.println(num1 + "x" + i + "=" + (num1*i));
+//         }
+//         sc.close();
+//     }
+// }
+
+
+
+
+
+// QUESTION : 7 : Print the first 20 natural numbers and their sum ?
+
+// public class day5_2{
+//     public static void main (String[]args){
+
+//         int sum = 0 ;
+
+//         for(int i=0 ; i<=20; i++){
+//             System.out.println(i);
+//             sum=sum+i;
+//         }
+//         System.out.println("sum = " + sum );
+//     }
+// }
+
+
+
+
+
+// QUESTION : 8 : Take n from the user and calculate the sum of numbers from 1 to n ?
+
+// import java.util.Scanner ;
+
+// public class day5_2{
+//     public static void main (String[]args){
+//         Scanner sc = new Scanner (System.in);
+
+//         int user_input = sc.nextInt();
+//         int sum = 0 ;
+
+//         for(int i = 1 ; i<=user_input; i++){
+//             sum = sum + i ;
+//         }
+//         System.out.println(sum);
+//         sc.close();
+//     }
+// }
+
+
+
+
+
+// QUESTION : 9 : Print the squares of numbers from 1 to 10 ?
+
+// public class day5_2{
+//     public static void main (String []args){
+//        for(int i=1; i<=10; i++){
+//         System.out.println(i*i);
+//        }
+//     }
+// }
+
+
+
+
+
+// QUESTION : 10 : Print the cubes of numbers from 1 to 10 ?
+
+// public class day5_2{
+//     public static void main (String []args){
+//        for(int i=1; i<=10; i++){
+//         System.out.println(i*i*i);
+//        }
+//     }
+// }
+
+
+
+
+
+// QUESTION : 11 : Take a number n and calculate its factorial ?
+
+// import java.util.Scanner ;
+
+// public class day5_2{
+//     public static void main (String []args){
+//        Scanner sc = new Scanner (System.in);
+//        int userinput = sc.nextInt();
+//        int fact = 1 ;
+
+//        for(int  i= 1 ; i<=userinput; i++){
+//            fact = fact * i ;
+//        }
+//        System.out.println("fact = " + fact );
+//        sc.close();
+//     }
+// }
+
+
+
+
+
+
+// QUESTION : 12 : Take a number and count how many numbers from 1 to n are divisible by 3 ?
+
+// import java.util.Scanner ;
+
+// public class day5_2{
+//     public static void main (String[]args){
+//         Scanner sc = new Scanner (System.in);
+//         int num = sc.nextInt();
+//         int count = 0 ;
+
+//         for (int i = 1 ; i<=num ; i++){
+//             if(i%3==0){
+//                 count+=1;
+//             }
+//         }
+//         System.out.println(count);
+//         sc.close();
+//     }
+// }
+
+
+
+
+
+// QUESTION : 13 : Print all numbers between 1 and 100 that are divisible by both 3 and 5 ?
+
+// import java.util.Scanner ;
+
+// public class day5_2{
+//     public static void main (String[]args){
+//         Scanner sc = new Scanner (System.in);
+//         int num1 = sc.nextInt();
+//         int num2 = sc.nextInt();
+
+//         for (int i = num1 ; i<=num2 ; i++){
+//             if(i%3==0 && i%5==0 ){
+//                 System.out.println(i);
+//                 sc.close();
+//             }
+//         }
+//     }
+// }
+
+
+
+
+// QUESTION : 14 : Take n and calculate the sum of all even numbers from 1 to n ?
+
+// import java.util.Scanner ;
+
+// public class day5_2{
+//     public static void main (String [] args){
+//         Scanner sc = new Scanner (System.in);
+//         int num = sc.nextInt();
+//         int sum = 0 ;
+
+//         for(int i = 1 ; i <=num ; i++){
+//             if(i%2==0){
+//                 sum+=1;
+//             }
+//         }
+//         System.out.println(sum);
+//         sc.close();
+//     }
+// }
+
+
+
+
+
+// QUESTION : 15 : Take n and calculate the sum of all odd numbers from 1 to n ?
+
+// import java.util.Scanner ;
+
+// public class day5_2{
+//     public static void main (String [] args){
+//         Scanner sc = new Scanner (System.in);
+//         int num = sc.nextInt();
+//         int sum = 0 ;
+
+//         for(int i = 1 ; i <=num ; i++){
+//             if(i%2!=0){
+//                 sum+=1;
+//             }
+//         }
+//         System.out.println(sum);
+//         sc.close();
+//     }
+// }
