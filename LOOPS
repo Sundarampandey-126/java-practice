@@ -267,7 +267,7 @@
 
 //         for(int i = 1 ; i <=num ; i++){
 //             if(i%2==0){
-//                 sum+=1;
+//                 sum+=i;
 //             }
 //         }
 //         System.out.println(sum);
@@ -291,7 +291,7 @@
 
 //         for(int i = 1 ; i <=num ; i++){
 //             if(i%2!=0){
-//                 sum+=1;
+//                 sum+=i;
 //             }
 //         }
 //         System.out.println(sum);
