@@ -1,0 +1,103 @@
+// 1. Sum of digits of a number
+
+// Example: 1234 → 1 + 2 + 3 + 4 = 10
+
+
+// import java.util.Scanner;
+
+// public class day10 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int n = sc.nextInt();
+
+//         int sum = 0;
+
+//         for (; n > 0; n = n / 10) {
+//             int digit = n % 10;
+//             sum = sum + digit;
+//         }
+
+//         System.out.println("Sum = " + sum);
+//         sc.close();
+//     }
+// }
+
+
+// 2. Product of digits
+
+// Example: 234 → 2 × 3 × 4 = 24
+
+// import java.util.Scanner;
+
+// public class day10 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int n = sc.nextInt();
+
+//         int product = 1;
+
+//         for (; n > 0; n = n / 10) {
+//             int digit = n % 10;
+//             product = product * digit;
+//         }
+
+//         System.out.println("Product = " + product);
+//         sc.close();
+//     }
+// }
+
+
+// 3. Count the number of digits
+
+// Example: 12345 → 5 digits
+
+// import java.util.Scanner;
+
+// public class day10 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int n = sc.nextInt();
+
+//         int count = 0;
+
+//         for (; n > 0; n = n / 10) {
+//             count++;
+//         }
+
+//         System.out.println("Total digits = " + count);
+//         sc.close();
+//     }
+// }
+
+
+
+// 4. Reverse a number
+
+// Example: 1234 → 4321
+
+
+// import java.util.Scanner;
+
+// public class day10 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int n = sc.nextInt();
+
+//         int reverse = 0;
+
+//         for (; n > 0; n = n / 10) {
+//             int digit = n % 10;
+//             reverse = reverse * 10 + digit;
+//         }
+
+//         System.out.println("Reverse = " + reverse);
+//         sc.close();
+//     }
+// }
+
+
+
